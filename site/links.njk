@@ -1,0 +1,27 @@
+---
+layout: default
+title: Things, people, and ideas that I like.
+description: Scott Watermasysk's Links
+pagination:
+  data: collections.links
+  size: 25
+  alias: links
+---
+<h1>Recommended Links</h1>
+<p>Here are some thinks I found interesting.</p>
+
+{% for link in links %}
+<h2 class="link"><a href="{{link.data.source_url}}">{{link.data.title}}</a></h2>
+{{ link.templateContent | safe }}
+{% endfor %}
+
+{% if pagination.previousPageHref or pagination.nextPageHref %}
+  <div class="flex mx-auto mt-10">
+    {% if pagination.nextPageHref %}
+    <a class="flex-auto text-left" href="{{pagination.nextPageHref}}">← Older Posts</a>
+    {% endif %}
+    {% if pagination.previousPageHref %}
+    <a class="flex-auto text-right" href="{{pagination.previousPageHref}}">Newer Posts →</a>
+    {% endif %}
+  </div>
+{% endif %}

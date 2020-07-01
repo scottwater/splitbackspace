@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "PCB",
+      "desc": "Not the best fit"
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "The Board",
+      "desc": "No underglow, just the board"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Side view",
+      "desc": "A look from the side with the optional acrylic add-on"
+    },
+    {
+      "img": "6.jpeg",
+      "alt": "The Board",
+      "desc": "One more underglow show...love it. ;)"
+    }
+  ]
+}

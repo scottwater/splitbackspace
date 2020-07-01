@@ -1,0 +1,15 @@
+{% set pageTitle %}{{ title | safe}} - {{site.title}}{% endset %}
+{% if (pagination and pagination.pageNumber > 0) %}
+  {% set pagerTitle %} - page {{pagination.pageNumber + 1}}{% endset %}
+{% endif %}
+<title>{{ pageTitle }}{{pagerTitle}}</title>
+<meta name="viewport" content="width=device-width">
+<meta charset="utf-8">
+<meta name="generator" content="Eleventy + Origin" />
+{%- if draft %}
+<meta name="robots" content="noindex" />
+{% endif %}
+<link rel="alternate" href="{{ site.feed.path | absoluteUrl(urls.site)}}" type="application/atom+xml" title="{{ site.title }}">
+{% seo %}
+{% include "favicons.njk" %}
+{% include "packs.njk" %}

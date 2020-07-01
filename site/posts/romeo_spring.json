@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "pre-install",
+      "desc": "Diodes install, more work to do."
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "PCB Ready",
+      "desc": "PCB Ready"
+    },
+    {
+      "img": "4.jpeg",
+      "alt": "PCB Description",
+      "desc": "PCB is labeled exceptionally well"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Switch Shot",
+      "desc": "Proof I used Milky Yellows. :)"
+    }
+  ]
+}

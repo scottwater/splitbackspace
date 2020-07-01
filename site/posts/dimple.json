@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Beautiful Dimple",
+      "desc": "The Beautiful Dimple"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "Dimple with Switches",
+      "desc": "Gateron Milky Yellows might be the best switch for the buck"
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "Purple PCB",
+      "desc": "I enjoy a nicely colored PCB. Matching Durock Stabs"
+    },
+    {
+      "img": "4.jpeg",
+      "alt": "Side Profile",
+      "desc": "Side Profile"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Side shot compared to Rama M60-A",
+      "desc": "The Dimple holds it own when compared to a M60-A"
+    }
+  ]
+}

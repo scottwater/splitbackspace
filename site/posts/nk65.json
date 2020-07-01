@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "PCB, Case, and more",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "PCB, Case, and more",
+      "desc": "Nice case. I honestly did not know it shipped with this."
+    },
+    {
+      "img": "3.jpg",
+      "alt": "Turquoise Tealios Switches ",
+      "desc": "Turquoise Tealios Switches "
+    },
+    {
+      "img": "4.jpg",
+      "alt": "Backlighting",
+      "desc": "Look out, I am lit!"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Packed",
+      "desc": "Packed and waiting for you"
+    },
+    {
+      "img": "6.jpeg",
+      "alt": "GMK Dolch",
+      "desc": "All the included keycaps"
+    }
+  ]
+}

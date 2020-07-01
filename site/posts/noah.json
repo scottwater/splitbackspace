@@ -1,0 +1,37 @@
+{
+  "soundTest": "https://youtu.be/W6gCD9vraEA",
+  "soundMessage": "This sound profile has 4mm of foam in the bottom of the case.",
+
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Boardxxx",
+      "desc": "Money shot X"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "H1 Switches and Plate",
+      "desc": "H1 Switches and Plate"
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "Full Board shot",
+      "desc": "The full Noah on the Randomfrankp mat"
+    },
+    {
+      "img": "4.jpeg",
+      "alt": "Noah zoomed on the right",
+      "desc": "Zoomed on the right"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Noah on a lighter background",
+      "desc": "I need to find a lighter color deskmat"
+    },
+    {
+      "img": "6.jpeg",
+      "alt": "Noah money shot on the left",
+      "desc": "Money shot on the left"
+    }
+  ]
+}

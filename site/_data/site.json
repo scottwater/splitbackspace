@@ -1,0 +1,16 @@
+{
+  "name": "Origin",
+  "url": "https://splitbackspace.com",
+  "title": "Split Backspace",
+  "description": "Just a boy, sitting in front a keyboard, asking it to look, feel, and sound amazing",
+  "feed": {
+    "subtitle": "Origin - ",
+    "filename": "feed.xml",
+    "path": "/feed.xml"
+  },
+  "author": {
+    "name": "Scott Watermasysk",
+    "email": "origin@scottw.com"
+  },
+  "twitter": "@scottw"
+}

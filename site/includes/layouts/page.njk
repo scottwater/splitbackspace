@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{%- if draft %}
+<h1 class="text-aurora-red">DRAFT POST! POST DRAFT!</h1>
+{% endif %}
+<h1>{{ title }}</h1>
+<p class="text-sm text-gray-600">
+  Published: <time datetime='{{page.date | rssDate}}' itemprop='datePublished'>{{page.date.toLocaleDateString("en-US", { month: 'short', day: 'numeric', year: 'numeric' })}}</time>
+</p>
+{% if image %}
+<p>
+  <img class="block" src="{{image}}" alt="{{image_alt}}" loading="lazy"/>
+  {% if image_credit %}
+  <span class="text-base text-gray-500">Photo Credit: {{image_credit}}</span>
+  {% endif %}
+</p>
+{% endif %}
+{{ content | safe }}
+{% if source_url %}
+<p>👉 <a href="{{source_url}}">{{source_url}}</a></p>
+{% endif %}

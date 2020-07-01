@@ -1,0 +1,54 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "The Board",
+      "desc": "Money shot 2"
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "The reflection",
+      "desc": "The back weight is great. The reflection view is my new favorite."
+    },
+    {
+      "img": "4.jpeg",
+      "alt": "Side profile",
+      "desc": "Side profile. Please ignore the mess, I liked the shot."
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Artsy angled view",
+      "desc": "Crooked angle shot"
+    },
+    {
+      "img": "7.jpeg",
+      "alt": "Lube Station",
+      "desc": "Great lube station. Super fit."
+    },
+    {
+      "img": "8.jpeg",
+      "alt": "Mauve Breakdown",
+      "desc": "The Mauve breakdown"
+    },
+    {
+      "img": "9.jpeg",
+      "alt": "Thick Thock Springs",
+      "desc": "Thick Thock Springs (I lost the extra if you found them please let me know)"
+    },
+    {
+      "img": "10.jpeg",
+      "alt": "Reflection Part 2",
+      "desc": "Close up of the reflection"
+    },
+    {
+      "img": "15.jpeg",
+      "alt": "The final product",
+      "desc": "Complete look at it on my desk"
+    }
+  ]
+}

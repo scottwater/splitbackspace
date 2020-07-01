@@ -1,0 +1,54 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "Completed Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "Switches",
+      "desc": "T1 Switches."
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "PCB before mods ",
+      "desc": "PCB "
+    },
+    {
+      "img": "4.jpeg",
+      "alt": "PCB with new Stabs",
+      "desc": "PCB with some pretty stabs"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "PCB Hotswaps",
+      "desc": "PCB Hotswaps"
+    },
+    {
+      "img": "6.jpeg",
+      "alt": "Brass weight",
+      "desc": "Shiny brass weight. It can be moved to the other side"
+    },
+    {
+      "img": "7.jpeg",
+      "alt": "GMK Mito Pulse",
+      "desc": "GMK Mito Pulse"
+    },
+    {
+      "img": "8.jpeg",
+      "alt": "Mito Pulse Keycaps",
+      "desc": "Mito Pulse Keycaps (none have ever been used)"
+    },
+    {
+      "img": "9.jpeg",
+      "alt": "Mito Pulse Mods",
+      "desc": "More GMK Mito Pulse keycaps"
+    },
+    {
+      "img": "10.jpeg",
+      "alt": "Black Cable",
+      "desc": "Black USB-C to USB-A cable"
+    }
+  ]
+}

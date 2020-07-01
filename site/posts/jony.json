@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "Pure white",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "Solid aluminum.",
+      "desc": "Integrated plate. Extra weight is on order, because why not?"
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "Durock Stabs",
+      "desc": "Floating band-aids"
+    },
+    {
+      "img": "4.jpeg",
+      "alt": "RGB?",
+      "desc": "RGB looks nice, but I always turn it off."
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Cable Shot",
+      "desc": "I did not have the cable at first, but here is proof."
+    }
+  ]
+}
