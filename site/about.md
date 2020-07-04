@@ -18,4 +18,8 @@ The thing I enjoy most about this hobby is there are no absolutes. Almost everyt
 
 For layouts, just about everything works for me except ergo. I will typically have something with arrows on my desk when I am coding and something without for regular computer usage. I try to switch between various boards every couple of days.
 
+You can find me on [Twitter](https://twitter.com/splitbackspace) and [Instagram](https://instagram.com/splitbackspace), but it is best to reach me my email if you have a question.
+
+Long term, I would like to see more of the community creating content out of walled gardens like Reddit, Twitch, and especially Discord. You are 100% free to use the code that powers this site, but not the content. I am more than willing to help you get your own site up and running as well, just reach out.
+
 [^sbs]: Just kidding, but if you want more, read, [Should You Use Split Backspace](https://splitbackspace.com/posts/splitbs/).
