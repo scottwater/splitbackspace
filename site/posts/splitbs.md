@@ -7,9 +7,9 @@ keywords: split backspace, keyboards, splitbs
 image: splitbs.png
 ---
 
-Typically, a split backspace takes your normal 2U backspace button and splits it in half (ie, into two separate keys). You can usually choose to whatever keys you want for these two keys. I (and many others) prefer `pipe and backslash` for one and `tilde and accent` for other. You can then take the typical 1.5u `pipe and slash` and convert that to backspace.
+Typically, a split backspace takes your standard 2U backspace button and splits it in half (i.e., into two separate keys). You can usually choose to whatever keys you want for these two keys. I (and many others) prefer `pipe and backslash` for one and `tilde and accent` for the other. You can then take the standard 1.5u `pipe and slash` and convert that to backspace.
 
-Is there a functional reason to do this? Not really. I used a Rama M60-A as my daily driver for about 3 months and got hooked on the layout. I like the aesthetics of it and I find it easier to switch between boards if there is some consistency.
+Is there a functional reason to do this? Not really. I used a Rama M60-A as my daily driver for about three months and got hooked on the layout. I like the aesthetics of it, and I find it easier to switch between boards if there is some consistency.
 
 Other things to consider:
 
