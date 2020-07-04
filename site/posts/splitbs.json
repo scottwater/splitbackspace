@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "Split Backspace In action",
+      "desc": "Split Backspace"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "Not Split Backspace",
+      "desc": "Generally, this is what it will look like (although the backspace key is still on two switches in the photo)."
+    }
+  ]
+}
