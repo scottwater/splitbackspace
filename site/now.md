@@ -11,22 +11,18 @@ During _business_ hours, I am the co-founder of [KickoffLabs](https://kickofflab
 
 Keyboards I need to write up:
 
-- KBD67V2 MKII with Zykos.
 - Mira SE with Marshmallows on an FR4 plate
 - SC Alice style with custom PCB
+- Key65 with inks
+- NK65 V2
 
 Keyboards I need to build:
 
 - Rekt 1800
-- NK65 V2
 
 Keyboards (and such) I am looking for:
 
-- KAT Alpha + Supplementary
-- KAT Milkshake
-- Key65
 - Iron165
-- Matrix Noah
 
 Other keyboard projects I am working on:
 
