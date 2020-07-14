@@ -1,0 +1,46 @@
+{
+  "soundTest": "https://youtu.be/9mMosHKlnh8",
+  "soundMessage": "Sound profile with original spacebar setup",
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "Zykos + Brass",
+      "desc": "Zykos sporting some brass"
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "Brass Weight",
+      "desc": "Brass booty shot"
+    },
+    {
+      "img": "4.jpeg",
+      "alt": "Board on the beach",
+      "desc": "Travels well"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Board with switch shot",
+      "desc": "Proof I did I not change my mind"
+    },
+    {
+      "img": "7.jpeg",
+      "alt": "Long view",
+      "desc": "Artistic side view shot"
+    },
+    {
+      "img": "8.jpeg",
+      "alt": "Dixie Shot",
+      "desc": "All dat Dixie"
+    },
+    {
+      "img": "9.jpeg",
+      "alt": "Paired with Rama M10b",
+      "desc": "Paired with Rama M10b"
+    }
+  ]
+}
