@@ -32,6 +32,8 @@ I put on some keycaps and, at the last second, decided to swap the spacebar. Thi
 
 Knowing how tight all the switches were, I was not eager to desolder the entire PCB and getting tools between the plate and PCB was not possible. Thankfully, after a couple of minutes of trying, I could see that if I removed the spacebar switch and a couple behind it, it would open things up.  I was able to wrap a bit of solder wire around the stabilizer bar, then pulled it into the stabilizer and clicked it in.
 
+![Busted Wire](wire.jpeg)
+
 ## Onto the build
 
 Here is what I used:
