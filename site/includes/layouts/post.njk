@@ -30,7 +30,7 @@ layout: default
 {% for img in images %}
   <div class="w-full">
   <div class="h-full px-4 pt-3 mx-4 mt-2 overflow-hidden rounded shadow-lg">
-  <img src="{{page.filePathStem}}/{{img.img}}" alt="{{img.at}}" loading="lazy" />
+  <img src="/assets/images/posts/{{page.fileSlug}}/{{img.img}}" alt="{{img.at}}" loading="lazy" />
     {% if img.desc %}
   <p class="mt-4">{{img.desc}}</p>
   {% endif %}

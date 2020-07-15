@@ -9,7 +9,7 @@ title:
 date: ${new Date().toISOString()}
 uuid: ${uuidv4()}
 keywords: Mechanical Keyboard,
-image: 1.jpeg
+image: /assets/images/posts/${board}/1.jpeg
 `.trim();
 
 const jsonData = `{
@@ -22,7 +22,7 @@ const jsonData = `{
   ]
 }`;
 
-fs.mkdir(`site/posts/${board}`, (err) => {
+fs.mkdir(`src/images/posts/${board}`, (err) => {
   if (err) {
     console.log(err);
   }

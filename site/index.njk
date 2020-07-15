@@ -12,7 +12,7 @@ pagination:
 
 <div class="flex flex-wrap">
 {% for post in posts %}
-  {% set backupImage %}{{post.filePathStem}}/{{post.data.image}}{% endset %}
+  {% set backupImage %}{{post.data.image}}{% endset %}
   {% set image %}{{ post.data.previewImage or backupImage }}{% endset %}
   <div class="flex w-full mb-10">
     <div class="hidden w-1/3 sm:block lg:w-1/3">

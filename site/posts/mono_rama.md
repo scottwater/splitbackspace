@@ -1,7 +1,7 @@
 ---
 title: Mono Rama M60-A Build
 date: 2020-04-25T17:04:11.831Z
-image: 1.jpeg
+image: /assets/images/posts/mono_rama/1.jpeg
 keywords: Mechanical Keyboard, Rama M60-A, SEQ2, Milk, GMK Oblivion Monochrome, SummitCable, Mauve Switches, Randomfrankp, Progressive Springs
 ---
 

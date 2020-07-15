@@ -3,7 +3,7 @@ title: Switch Couture Mysterium
 date: 2020-05-20T15:05:20.399Z
 uuid: e2604cf0-0e9b-46e3-9267-e4846cced3ee
 keywords: Mechanical Keyboard, CFTKB Mysterium, Switch Couture, TLK, Acrylic keyboard
-image: 1.jpeg
+image: /assets/images/posts/mysterium/1.jpeg
 ---
 
 The [Mysterium](https://www.cftkb.com/shop/mysterium-tkl-diy-keyboard-kit) is a TKL through-hole produced by [CFTKB](https://www.cftkb.com). It is the much bigger sibling of the [Romeo](https://scottw.com/boards/romeo_spring/) (and slightly larger sibling of the Discipline).

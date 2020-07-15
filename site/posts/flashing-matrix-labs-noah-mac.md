@@ -2,7 +2,7 @@
 title: Flashing the Matrix Labs Noah on a Mac
 date: 2020-05-02T14:46:20.723Z
 keywords: Mechanical Keyboard, Matrix Labs, Noah, OS X, Mac
-image: matrix.jpg
+image: /assets/images/posts/matrix.jpg
 image_credit: Markus Spiske on Unsplash
 layout: layouts/page
 ---

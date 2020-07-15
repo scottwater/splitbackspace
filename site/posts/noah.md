@@ -3,7 +3,7 @@ title: Matrix Noah
 date: 2020-06-10T04:04:28.263Z
 uuid: 9e91b0cf-196f-44dd-96d4-82d753c2b5dd
 keywords: Mechanical Keyboard, matrix noah, 65% keyboard, qmk
-image: 1.jpeg
+image: /assets/images/posts/noah/1.jpeg
 ---
 
 The Noah is my first keyboard by Matrix Lab. It has a few rough spots that make getting everything set up a bit of a challenge, but it is well worth the effort.
@@ -29,7 +29,7 @@ Out of the gate, the PCB requires you to snap off some tabs. The lack of readily
 
 Once the PCB is ready, it is time to add the stabilizers. This build is my second time using C3 stabilizers. They have gotten a bad wrap in the community, but I have enjoyed them. Even better, the C3 stabilizers come with washers, which you will 100% want to use on this PCB. Matrix Labs is known for being a premium keyboard manufacturer, but there were some very questionable LED placements on this PCB[^pcbled].
 
-![Noah PCB LED choices]( led_locations.jpeg)
+![Noah PCB LED choices](led_locations.jpeg)
 
 Next up, the switches. I used H1 switches, which are another JWK variant (Alpaca, Mauve, Marshmallow). Of the three JWKs I have tried[^marsh] (H1, Alpaca, and Mauve) these are the best out of the bag with their 80g spring weight. My ideal spring weight is in the mid-70s, but I prefer slightly heavy to too light.
 Ok, now the fun starts.

@@ -1,7 +1,7 @@
 ---
 title: Tofu HHKB
 date: "2020-02-14T01:52:54+00:00"
-image: closeup.jpeg
+image: /assets/images/posts/tofu-hhkb/closeup.jpeg
 description: Tofu HHKB keyboard with lubed T1 switches and GMK Mito Pulse keycaps.
 keywords: Tofu HHKB, T1 switches, GMK Mito Pulse, KBDFans, Durock stabs, Keyboard Bundle
 status: SOLD
@@ -24,7 +24,6 @@ When I was done, two things quickly jumped out to me.
 2. The T1 switches lubed sounded much better than I expected. Up until this point, I was in complete denial about lubing switches. That changed immediately.
 
 For better or worse, I decided to test a business hypothesis around selling semi-custom keyboards. It sold pretty quickly, which is a shame. If I could go back, I would have kept this board.
-
 
 <div class="flex items-center justify-center">
   <span class="pl-4">Sound Test</span>

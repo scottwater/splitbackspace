@@ -3,7 +3,7 @@ title: KBD67 X 8008 (MKII)
 date: 2020-07-14T17:44:28.534Z
 uuid: 891bf808-8a36-421f-b120-08d035689538
 keywords: Mechanical Keyboard, KBD67 MKII, Zykos, Polycarbonate keyboard
-image: 1.jpeg
+image: /assets/images/posts/kbd67-mkii/1.jpeg
 ---
 
 This build was a labor of love and some pain and misery. But in the end, I am quite pleased with how it turned out.

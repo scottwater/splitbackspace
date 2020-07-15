@@ -3,7 +3,7 @@ title: Luna en Azul
 date: 2020-06-05T01:18:35.359Z
 uuid: cf2fe5d5-4f7b-4e83-baf8-6e279a695078
 keywords: Mechanical Keyboard, ungodly design, luna mechanical keyboard, kat profile, KAT DP0385
-image: 1.jpeg
+image: /assets/images/posts/luna/1.jpeg
 ---
 
 The [Luna](https://ungodly.design/products/luna-keyboard)[^1] is the first board from [Ungodly Design](https://ungodly.design/). The design is a tribute to the 50th anniversary of the Apollo 11 landing.
@@ -14,7 +14,7 @@ Full build details:
 
 1. Luna case[^2]
 2. 1UP RGB 60% PCB HTE
-3. [NK_ Blueberry](https://novelkeys.xyz/collections/frontpage/products/nk_-blueberry) switches lubed with Tribosys 3204 (and 105 on the springs)
+3. [NK\_ Blueberry](https://novelkeys.xyz/collections/frontpage/products/nk_-blueberry) switches lubed with Tribosys 3204 (and 105 on the springs)
 4. Durock clear stabilizers
 5. [KAT DP0385](https://kbdfans.com/collections/keycaps/products/kat-dp0385-keycaps-set)
 
@@ -38,15 +38,15 @@ The Luna also comes with a thin layer of EVA foam, which certainly helps. There 
 
 ## Updates and Final Thoughts
 
-* For the size, this is quite a hefty board. It comes in at about 1325g built. For comparison, my much larger Matrix Noah weighs about 1290g built.
-* I am still not loving the top row and spacebar sound profile on Kat. I tried adding some additional foam (see photo below) but it did not make that big of a difference. I suspect if I could cut quality foam so that it completely filled the angled section it might make a slight difference...then again, I more inclined to think my ear is overly tuned for GMK and anything different is going to sound a bit off.
-* Despite the slight Kat issues, I am definitely comfortable purchasing Kat sets going forward. It has likely moved into section position for favorite keycap profiles.
-* I really dislike the font choice on this Kat set. I do not think I could use it long term.
-* This is the first board I have owned that I know was machined by Salvun. I am looking forward to future boards by him.
-* For the moon emblem, I folded over the included LED. I have been experimenting and I think I am going to try using a couple smaller LEDs. Ideally I can get one to line up directly with the crescent moon.
-* The 1up hot-swap PCB is quite nice. It took just a couple of seconds to upgrade it to VIA. Ungodly may want to make the hex file readily available or ideally preflash it going forward. It makes a big difference when it just works.
-* I tried to take a picture of the mirrored stainless steel bottom, but it came out too poorly to show. I have to research how to properly clean and polish it.
-* I would love to see a board that takes advantage of the mirrored stainless steel in a more front and center way. My Rama M60 has a great mirrored backweight, but I never get to see it myself.
+- For the size, this is quite a hefty board. It comes in at about 1325g built. For comparison, my much larger Matrix Noah weighs about 1290g built.
+- I am still not loving the top row and spacebar sound profile on Kat. I tried adding some additional foam (see photo below) but it did not make that big of a difference. I suspect if I could cut quality foam so that it completely filled the angled section it might make a slight difference...then again, I more inclined to think my ear is overly tuned for GMK and anything different is going to sound a bit off.
+- Despite the slight Kat issues, I am definitely comfortable purchasing Kat sets going forward. It has likely moved into section position for favorite keycap profiles.
+- I really dislike the font choice on this Kat set. I do not think I could use it long term.
+- This is the first board I have owned that I know was machined by Salvun. I am looking forward to future boards by him.
+- For the moon emblem, I folded over the included LED. I have been experimenting and I think I am going to try using a couple smaller LEDs. Ideally I can get one to line up directly with the crescent moon.
+- The 1up hot-swap PCB is quite nice. It took just a couple of seconds to upgrade it to VIA. Ungodly may want to make the hex file readily available or ideally preflash it going forward. It makes a big difference when it just works.
+- I tried to take a picture of the mirrored stainless steel bottom, but it came out too poorly to show. I have to research how to properly clean and polish it.
+- I would love to see a board that takes advantage of the mirrored stainless steel in a more front and center way. My Rama M60 has a great mirrored backweight, but I never get to see it myself.
 
 [^1]: For the better part of 7 years, I made almost monthly visits to Dallas. At least one time per trip (and usually many times) I had a bowl of tortilla soup at a restaurant called Luna De Noche. To this day it is my favorite soup...so now you know ever time I think about the Luna keyboard, I think soup, even if the two of absolutely nothing to do with one and other. :)
 [^2]: I actually ordered the HHKB version, but did not notice I received the Tsangan until I was adding my switches. I contacted Luis at Ungodly and he confirmed a new top case will be sent out.

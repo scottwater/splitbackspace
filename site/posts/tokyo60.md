@@ -2,7 +2,7 @@
 title: Tokyo60 Rev3
 date: 2020-03-25T13:07:00.236Z
 keywords: Mechanical Keyboard,
-image: 1.jpeg
+image: /assets/images/posts/tokyo60/1.jpeg
 status: Returned
 ---
 

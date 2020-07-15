@@ -2,7 +2,7 @@
 title: 'M60-A: "Jony Ive" edition'
 date: "2020-02-15T01:50:54+00:00"
 keywords: Mechanical Keyboard, Rama M60-A, SEQ2, Milk, GMK Minimal, SummitCable
-image: 1.jpeg
+image: /assets/images/posts/jony/1.jpeg
 status: Rebuilt
 ---
 

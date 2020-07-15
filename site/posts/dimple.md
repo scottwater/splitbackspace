@@ -2,7 +2,7 @@
 title: Dimple
 date: 2020-05-01T14:46:20.723Z
 keywords: Mechanical Keyboard, Dimple, 40% Keyboard, Gateron, Milky Yellow
-image: 1.jpeg
+image: /assets/images/posts/dimple/1.jpeg
 ---
 
 The Dimple is a 40% keyboard designed by [LazyDesigners](http://lazydesigners.cn).
@@ -26,4 +26,4 @@ I love GMK Paperwork. I missed it when it was for sale on Olkb, but got lucky wh
 
 For the stabs, I went with Durock's again. They have been great in my limited experience, and they matched the PCB. You cannot go wrong there.
 
-For the switches, I tried Gateron Milky Yellows for the first time. I have used the blacks a couple of times, and they were OK, but the yellows are lovely. The Milky Yellows be the best linear for the money (about $0.23 per switch).
+For the switches, I tried Gateron Milky Yellows for the first time. I have used the blacks a couple of times, and they were OK, but the yellows are lovely. The Milky Yellows be the best linear for the money (about \$0.23 per switch).

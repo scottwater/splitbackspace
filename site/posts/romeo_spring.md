@@ -3,7 +3,7 @@ title: Romeo in the Spring
 date: 2020-05-12T14:24:13.237Z
 uuid: 8b630526-f735-403e-b6b3-123c76fc6158
 keywords: Mechanical Keyboard, romeo, cftkb, 40% keyboard
-image: 1.jpeg
+image: /assets/images/posts/romeo_spring/1.jpeg
 ---
 
 [Romeo](https://www.cftkb.com/shop/romeo) is a 40% through-hole keyboard kit produced by [CFTKB](https://www.cftkb.com).

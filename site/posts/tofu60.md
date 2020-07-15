@@ -2,7 +2,7 @@
 title: Tofu60
 date: 2020-04-03T01:47:29.400Z
 keywords: Mechanical Keyboard,
-image: headline.jpeg
+image: /assets/images/posts/tofu60/headline.jpeg
 status: Sold
 ---
 
