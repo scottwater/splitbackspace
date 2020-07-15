@@ -30,7 +30,7 @@ In an effort not to destroy the pins while trying to get the switches in the pla
 
 I put on some keycaps and, at the last second, decided to swap the spacebar. This was when things went to hell a second time. Do to all of my handling and moving around during the alignment, the spacebar wire popped out. It must have been hanging on by a thread, and once I pulled the spacebar off, it also came out.
 
-Knowing how tight all the switches were, I was not eager to desolder the entire PCB and getting tools between the plate and PCB was not possible. Thankfully, after a couple of minutes of trying, I could see that if I removed the spacebar switch and a couple behind it, it would open things up.  I was able to wrap a bit of solder wire around the stabilizer bar, then pulled it into the stabilizer and clicked it in.
+Knowing how tight all the switches were, I was not eager to desolder the entire PCB and getting tools between the plate and PCB was not possible. Thankfully, after a couple of minutes of trying, I could see that if I removed the spacebar switch and a couple behind it, it would open things up. I was able to wrap a bit of solder wire around the stabilizer bar, then pulled it into the stabilizer and clicked it in.
 
 ![Busted Wire](wire.jpeg)
 
@@ -38,12 +38,12 @@ Knowing how tight all the switches were, I was not eager to desolder the entire 
 
 Here is what I used:
 
-* KBD67-MKII - Polycarbonate
-* Brass plate
-* Solder PCB
-* Zykos switches
-* Durock stabilizers
-* GMK 8008 (base + accent kit)
+- KBD67-MKII - Polycarbonate
+- Brass plate
+- Solder PCB
+- Zykos switches
+- Durock stabilizers
+- GMK 8008 (base + accent kit)
 
 This is my first polycarbonate build. Once complete, I immediately regretted not grabbing the Klippe PC and getting in on the Rutika GB recently (really regret this one). The feel and sound from the polycarbonate are quite lovely. I am usually not an RGB fan (and this PCB has none), but the polycarbonate has heft and enough clarity to make it worthwhile.
 
@@ -53,10 +53,8 @@ Other than that, I have no real issues. The KBD676 MKII is a very nice board, es
 
 ### Update
 
-The Zykos are very aggressive. After listening to some sound profiles, I wanted to [tone down the spacebar](https://youtu.be/MMyvfpUWymw) a bit. I recently caught one Langlandia's Iron165 builds (rubbing two of them right in my mug) and noticed he was using a silent switch on the spacebar. I typically use a 98g spring on the spacebar to tone things down a bit, but I decided to give a silent Healio a try. I am not sure I will do this all the time, but for the Zykos + brass plate, I think it is a win.
+The Zykos are very aggressive. After listening to some sound profiles, I wanted to [tone down the spacebar](https://youtu.be/MMyvfpUWymw) a bit. I recently caught one [Langlandia's](https://www.twitch.tv/langelandia) Iron165 builds (rubbing two of them right in my mug) and noticed he was using a silent switch on the spacebar. I typically use a 98g spring on the spacebar to tone things down a bit, but I decided to give a silent Healio a try. I am not sure I will do this all the time, but for the Zykos + brass plate, I think it is a win.
 
 [^kind]: I truly mean kind enough. There was an open group buy for the h87a and he essentially old it to me for what it would cost to replace at GB + shipping. Thank you again!
-
 [^ahhh]: If you go this route, set aside a couple of hours. It is quite a bit of work to disassemble, lube, and then reassemble.
-
 [^well]: Well, I guess this assumes the limited layout options include your preferred layout options. :P
