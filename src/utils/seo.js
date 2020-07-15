@@ -16,7 +16,7 @@ module.exports = (eleventyConfig, options = {}) => {
   function isoDate(dateObj) {
     return DateTime.fromJSDate(dateObj).toISO({
       includeOffset: true,
-      suppressMilliseconds: true
+      suppressMilliseconds: true,
     });
   }
 
@@ -51,11 +51,11 @@ module.exports = (eleventyConfig, options = {}) => {
     return content.indexOf("</p>") + 4;
   }
 
-  eleventyConfig.addNunjucksTag("seo", function(nunjucksEngine) {
-    return new (function() {
+  eleventyConfig.addNunjucksTag("seo", function (nunjucksEngine) {
+    return new (function () {
       this.tags = ["seo"];
 
-      this.parse = function(parser, nodes, _) {
+      this.parse = function (parser, nodes, _) {
         var tok = parser.nextToken();
         var args = parser.parseSignature(null, true);
 
@@ -69,13 +69,14 @@ module.exports = (eleventyConfig, options = {}) => {
         return new nodes.CallExtensionAsync(this, "run", args);
       };
 
-      this.run = function(context, _, callback) {
+      this.run = function (context, _, callback) {
         const {
           page,
           date,
           excerpt,
           description,
           keywords,
+          previewImage,
           og_image,
           og_image_alt,
           featured_image,
@@ -84,7 +85,7 @@ module.exports = (eleventyConfig, options = {}) => {
           image_alt,
           type,
           title,
-          content
+          content,
         } = context["ctx"];
 
         const site =
@@ -115,7 +116,7 @@ module.exports = (eleventyConfig, options = {}) => {
         const publishedTime = isoDate(date);
         const siteTitle = pullWithBackup("title", title);
         const twitter = `@${pullWithBackup("twitter")}`.replace(/^@@/, "@");
-        const rawImage = og_image || featured_image || image;
+        const rawImage = og_image || featured_image || previewImage || image;
         const alt = og_image_alt || featured_image_alt || image_alt;
         const resolvedOgImage = rawImage
           ? absoluteUrl(rawImage, baseUrl)
@@ -131,7 +132,7 @@ module.exports = (eleventyConfig, options = {}) => {
           image: resolvedOgImage,
           url: pageUrl,
           name: siteTitle,
-          "@context": "https://schema.org"
+          "@context": "https://schema.org",
         };
         const template = `
           <link rel="canonical" href="{{ pageUrl }}">
@@ -170,7 +171,7 @@ module.exports = (eleventyConfig, options = {}) => {
           alt,
           typeOfTwitterCard,
           twitter,
-          structuredData: JSON.stringify(structuredData)
+          structuredData: JSON.stringify(structuredData),
         });
 
         let ret = new nunjucksEngine.runtime.SafeString(output);
