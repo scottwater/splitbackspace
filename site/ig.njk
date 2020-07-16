@@ -1,0 +1,42 @@
+---
+featuredImage: /assets/images/origin.png
+title: Scott Watermasysk
+keywords: Scott Watermasysk, ScottW, ScottWater
+description: Just a boy, sitting in front a keyboard, asking it to look, feel, and sound amazing.
+pagination:
+  data: collections.publishedPosts
+  alias: posts
+  size: 25
+---
+<!doctype html>
+<html lang="en-US">
+  <head>
+    {% include "head.njk" %}
+  </head>
+  <body class="flex flex-col h-full max-w-4xl min-h-screen mx-auto font-sans text-lg antialiased leading-snug">
+    <div class="mx-auto mt-4">
+      <div class="flex flex-col items-center mx-auto">
+        <div class="w-16 h-8 sm:w-32 sm:h-16">
+          <img src="/assets/images/logo.png" class="object-cover">
+        </div>
+      <a aria-label="Go back to the home page" href="/" class="ml-2 font-semibold text-2 qxl sm:text-2xl md:text-5xl">{{site.title}}</a>
+      </div>
+    </div>
+    <div class="mx-4">
+      <ul class="grid max-w-lg grid-cols-1 gap-5 mx-auto mt-3">
+      {% for post in posts %}
+        {% set backupImage %}{{post.data.image}}{% endset %}
+        {% set image %}{{ post.data.previewImage or backupImage }}{% endset %}
+        <li class="flex items-center col-span-1 overflow-hidden text-white bg-gray-900 border-2 border-black">
+          <div class="w-24 h-24 bg-white ">
+            <img class="object-cover w-full h-24" src="{{image}}" loading="lazy" />
+          </div>
+          <div class="flex-1 px-4 py-2 truncate">
+            <a href="#" class="text-sm font-medium leading-5 text-gray-900 transition duration-150 ease-in-out hover:text-gray-600"><a href="{{post.url}}">{{post.data.title}}</a></a>
+          </div>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>
