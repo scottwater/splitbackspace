@@ -16,13 +16,17 @@ Keyboards I need to write up:
 - Key65 with inks
 - NK65 V2
 
-Keyboards I need to build:
-
-- Rekt 1800
-
 Keyboards (and such) I am looking for:
 
 - Iron165
+- KC No. 1/65 (and soon No. 2/65)
+- Kat Milkshake Spacebar and/or Blank Mods
+
+I have my eye on:
+
+- Iron180
+- J-02 Rev 1
+- Adélie
 
 Other keyboard projects I am working on:
 

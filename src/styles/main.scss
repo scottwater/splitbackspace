@@ -28,6 +28,10 @@ main {
     }
   }
 
+  .callout-block {
+    @apply p-4 mb-4 bg-yellow-200 border-2 border-yellow-500;
+  }
+
   pre[class*="language-"] {
     @apply py-4 px-4;
   }

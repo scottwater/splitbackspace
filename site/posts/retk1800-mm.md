@@ -4,6 +4,7 @@ date: 2020-07-27T15:19:20.263Z
 uuid: ddfc152d-eb62-4a42-911c-3e82f04c2ff9
 keywords: Mechanical Keyboard, Retk1800, manual, documentation
 previewImage: /assets/images/posts/retk1800-mm/final.jpg
+layout: layouts/post
 ---
 
 The [Retk1800](https://cannonkeys.com/products/rekt1800-keyboard) is a part of CannonKeys' Brutalist line of keyboards in the 1800-Compact form factor.
@@ -36,8 +37,8 @@ To complete your build, you will need to purchase (or have on hand) switches and
 
 The first choice you need to make is 6.25U or 7U spacebar.
 
-6.25u uses 3 x 1.25u on the left and 2 \* 1.5u on the right side of the spacebar
-7u uses 2 x 1.5u on the left and 2 x 1.5u on the right side of the spacebar
+- 6.25u uses 3 x 1.25u on the left and 2 x 1.5u on the right side of the spacebar
+- 7u uses 2 x 1.5u on the left and 2 x 1.5u on the right side of the spacebar
 
 With this choice, we have our the minimum number of switches we will need:
 
@@ -68,21 +69,27 @@ From our previous examples, for my 7u plate + split backspace, I needed five tot
 
 Install the stabilizers on to your PCB, align the plate, and insert and solder your switches.
 
+![PCB, Plate, Switches, and Stabs](/assets/images/posts/retk1800/switch_plate.jpg)
+
 Once complete, again, test your PCB to ensure all switches are working.
 
 Next up, disassemble your case by removing the eight screws on the bottom of the case. You can put the bottom of the case aside for a couple of minutes.
 
 Next, flip the top of your case over. I recommend setting it down on a deskmat to some other type of pad to ensure you do not scratch it during the next step.
 
-Take eight o-rings and carefully align them on each of the PCB mounting holes. These are found towards the inside of your main case screw wholes. You will see a slight indentation meant to help you properly align the o-rings.
+Take eight o-rings and carefully align them on each of the PCB mounting holes. These are found towards the inside of your main case screw holes. You will see a slight indentation meant to help you properly align the o-rings.
 
-![Parts](/assets/images/posts/retk1800-mm/o-rings.jpg)
+![O-rings](/assets/images/posts/retk1800-mm/o-rings.jpg)
 
-If you have trouble aligning them, carefully use the tip of the included Allen wrench or a small screwdriver. Be very careful not to scratch your beautiful new keyboard.
+If you have trouble aligning them, carefully use the tip of the included hex key or a small screwdriver. Be very careful not to scratch your new keyboard.
 
 Next, carefully align your PCB on top of the 8 o-rings. You should double-check to ensure none of them moved before moving on to the next step.
 
-Once everything is aligned, take the 8 black PCBs mounting screws and add an o-ring[^oring] to each. From there, carefully screw the PCB to the top of the case.
+Once everything is aligned, take the 8 black PCBs mounting screws and add an o-ring[^oring] to each.
+
+![O-rings and screws](/assets/images/posts/retk1800-mm/o-ring-screw.jpg)
+
+From there, carefully screw the PCB to the top of the case.
 
 Do **not** overtighten. The screws should be firm, but not overly tight. You do not want to squeeze the o-rings. If you do over tighten and one of the o-rings break, carefully remove it and try again. There should be plenty of extras.
 
@@ -92,9 +99,9 @@ Finally, flip your top case over and re-mount the bottom of the case. Again, be 
 
 ## Sound Options
 
-The Retk1800 is a large case and has plenty of space inside it. With most switch and keycap combinations, you will sound hollow and very "pingy".There are two relatively simple things you can do to fix this:
+The Retk1800 is a large case and has plenty of space inside it. With most switch and keycap combinations, you will sound hollow and very "pingy". There are two relatively simple things you can do to fix this:
 
-### Polyfill
+### 1. Polyfill
 
 Polyfill is CannonKeys' recommended option[^pf]. Polyfill is used as the filling for stuffed animals, decorative pillows, etc. It is very cheap and comes in a rather large bag. You will only need a small handful. You may want to check with Mom, grandma, or your favorite crafter before purchasing your own.
 
@@ -102,11 +109,11 @@ Take a small handful or so of the polyfill and spread it evenly across your case
 
 Do not worry if you have a couple of straggling pieces of polyfill sticking out. It is easy to trim that up afterward.
 
-### Foam
+### 2. Foam
 
-I like to use this inexpensive foam from Amazon for my builds. You can cut a piece and then lay it flat in the bottom of your case.
+I like to use this [inexpensive vibration foam](https://www.amazon.com/gp/product/B000OQTV2I) from Amazon for my builds. You can cut a piece and then lay it flat in the bottom of your case.
 
-Polyfill or foam? The choice is yours. Experiment and see what sounds better with your switch and keycap choice.
+Polyfill or foam? The choice is yours. Experiment and see what sounds better with your switch and keycap choice. Personally, I do not see a much difference between the two. So if you have one on hand, I recommend using that one.
 
 ## VIA
 
@@ -116,7 +123,7 @@ The first thing you need to do is grab the VIA bin file. You can find it in the 
 
 To put your PCB in bootloader mode, unplug it, then hold ESC while plugging it back in[^bootloader]. From there, you can use QMK toolbox to flash the new bin file onto your keyboard.
 
-Usually, this is all you need to do to VIA enable a PCB. However, since Retk1800 is not officially in VIA yet, you will need to go into the VIA design tab and add the JSON file.
+Usually, this is all you need to do to VIA enable a PCB. However, since Retk1800 is not officially in VIA yet, you will need to go into the VIA design tab and add the Retk1800.json layout file (also available in the CannonKeys discord server).
 
 At this time, VIA does not remember custom the JSON file settings. So anytime you open VIA or unplug your keyboard, you will need to re-add the JSON file.
 

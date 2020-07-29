@@ -1,9 +1,64 @@
 {
   "images": [
     {
-      "img": "1.jpeg",
-      "alt": "The Board",
-      "desc": "Money shot"
+      "img": "full_shake.jpg",
+      "alt": "Full Milkshake",
+      "desc": "The full Milkshake shot"
+    },
+    {
+      "img": "alpacas.jpg",
+      "alt": "Alpacas in a jar",
+      "desc": "Alpacas lubed with 205g0, Sprit Slow Extreme 72g springs, and Deskeys films"
+    },
+    {
+      "img": "butt.jpg",
+      "alt": "Butt shot",
+      "desc": "Da butt"
+    },
+    {
+      "img": "case.jpg",
+      "alt": "Blue",
+      "desc": "Love this blue"
+    },
+    {
+      "img": "foam.jpg",
+      "alt": "Foam",
+      "desc": "Foam"
+    },
+    {
+      "img": "mo_shake.jpg",
+      "alt": "Mo Shake",
+      "desc": "A little more Milkshake"
+    },
+    {
+      "img": "pcb.jpg",
+      "alt": "PCB",
+      "desc": "PCB with nice smokey stabs"
+    },
+    {
+      "img": "poly.jpg",
+      "alt": "Polyfill",
+      "desc": "Polyfill"
+    },
+    {
+      "img": "sleeves.jpg",
+      "alt": "Mr. Sleeves keycaps",
+      "desc": "Mr. Sleeves. OSA sounds quite nice."
+    },
+    {
+      "img": "switch_plate.jpg",
+      "alt": "Installed switches",
+      "desc": "The FR4 + Alpacas + smokey stabs looks quite nice."
+    },
+    {
+      "img": "top_shake.jpg",
+      "alt": "Top Shake",
+      "desc": "Top Shake"
+    },
+    {
+      "img": "white.jpg",
+      "alt": "White keycaps",
+      "desc": "Tried on some nice white PTB keycaps. Love the look, but too much white."
     }
   ]
 }
