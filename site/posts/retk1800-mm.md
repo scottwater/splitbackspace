@@ -129,15 +129,15 @@ At this time, VIA does not remember custom the JSON file settings. So anytime yo
 
 ## Common Issues
 
-### Keyboard is not responding
+### 1. Keyboard is not responding
 
 My keyboard is not responding to keystrokes - Check to make sure it is not in the “forced” bootloader mode. There is a switch on the bottom of the PCB. It should be to the left unless you are trying to flash the PCB (note, I recommend using ESC + plugging it in or just pressing the reset button on the bottom of the PCB so that you do not accidentally forget to flip this switch back.
 
-### No (more) VIA
+### 2. No (more) VIA
 
 My keyboard stopped being recognized by VIA. - Until the Retk1800 is officially in VIA, you will need to add that JSON configuration file every time you start VIA or unplug your keyboard.
 
-### Pingy sound
+### 3. Pingy sound
 
 I hear pinging when I type - It is a large cavity. Remember to experiment with sound dampening techniques such as polyfill or foam.
 
