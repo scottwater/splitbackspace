@@ -3,6 +3,7 @@ import { Controller } from "stimulus";
 export default class extends Controller {
   static targets = ["track", "player", "playlist", "message", "revealButton"];
   connect() {
+    this.currentlyPlaying = null;
     this.element.addEventListener(
       "nowPlaying",
       this.nowPlaying.bind(this),
@@ -18,6 +19,11 @@ export default class extends Controller {
       true
     );
     audio.onended = this.nextTrack.bind(this);
+    audio.addEventListener("timeupdate", this.captureDuration.bind(this), true);
+  }
+
+  captureDuration(event) {
+    this.currentlyPlaying.dataset.duration = this.playerTarget.currentTime;
   }
 
   shuffle() {
@@ -39,9 +45,9 @@ export default class extends Controller {
       track.classList.remove("playing");
     });
 
-    const firstSoundProfile = playlist.children[0];
-    const mp3_url = firstSoundProfile.dataset.src;
-    firstSoundProfile.classList.add("playing");
+    this.currentlyPlaying = playlist.children[0];
+    const mp3_url = this.currentlyPlaying.dataset.src;
+    this.currentlyPlaying.classList.add("playing");
     player.src = mp3_url;
   }
 
@@ -79,8 +85,12 @@ export default class extends Controller {
 
     if (event && event.detail) {
       const audio = this.playerTarget;
+      this.currentlyPlaying = event.detail.track;
       audio.src = event.detail.track.dataset.src;
       event.detail.track.classList.add("playing");
+      audio.currentTime = parseFloat(
+        this.currentlyPlaying.dataset.duration || "0.0"
+      );
       audio.play();
     }
   }
