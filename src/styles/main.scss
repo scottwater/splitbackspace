@@ -2,6 +2,12 @@ main {
   .eleventy-plugin-youtube-embed {
     @apply my-5;
   }
+
+  .playing {
+    //@apply bg-green-200 border-2 border-green-500;
+    @apply border-l-4 border-green-500;
+  }
+
   h1 {
     @apply text-5xl font-bold;
   }

@@ -1,0 +1,20 @@
+{
+  "tracks": [
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/retk1800/kat/empty.mp3",
+      "message": "No Polyfill or Foam"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/retk1800/kat/foam.mp3",
+      "message": "4mm of foam"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/retk1800/kat/poly.mp3",
+      "message": "Polyfill"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/retk1800/kat/polyfoam.mp3",
+      "message": "4mm of Foam and Polyfill"
+    }
+  ]
+}
