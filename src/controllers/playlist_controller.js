@@ -43,7 +43,7 @@ export default class extends Controller {
     }
 
     this.messageTargets.forEach((message) => {
-      //message.classList.add("hidden");
+      message.classList.add("hidden");
     });
 
     this.revealButtonTargets.forEach((button) => {

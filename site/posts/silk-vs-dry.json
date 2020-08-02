@@ -1,0 +1,12 @@
+{
+  "tracks": [
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/key65/nk/stock-silk.mp3",
+      "message": "Stock Silk Series"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/key65/nk/mod-dry.mp3",
+      "message": "Personally modded Dry Series"
+    }
+  ]
+}
