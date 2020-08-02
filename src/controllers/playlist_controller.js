@@ -29,26 +29,35 @@ export default class extends Controller {
   shuffle() {
     const player = this.playerTarget;
     const playlist = this.playlistTarget;
-    for (var i = playlist.children.length; i >= 0; i--) {
-      playlist.appendChild(playlist.children[(Math.random() * i) | 0]);
+    const random_order = [];
+    for (let i = 1; i <= this.trackTargets.length; i++) random_order.push(i);
+    let currentIndex = random_order.length,
+      temporaryValue,
+      randomIndex;
+    while (0 !== currentIndex) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+      temporaryValue = random_order[currentIndex];
+      random_order[currentIndex] = random_order[randomIndex];
+      random_order[randomIndex] = temporaryValue;
     }
 
     this.messageTargets.forEach((message) => {
-      message.classList.add("hidden");
+      //message.classList.add("hidden");
     });
 
     this.revealButtonTargets.forEach((button) => {
       button.classList.remove("hidden");
     });
 
-    this.trackTargets.forEach((track) => {
+    this.trackTargets.forEach((track, index) => {
       track.classList.remove("playing");
+      track.setAttribute("style", `order: ${random_order[index] + 1}`);
     });
 
-    this.currentlyPlaying = playlist.children[0];
-    const mp3_url = this.currentlyPlaying.dataset.src;
+    this.currentlyPlaying = playlist.children[random_order.indexOf(1)];
     this.currentlyPlaying.classList.add("playing");
-    player.src = mp3_url;
+    player.src = this.currentlyPlaying.dataset.src;
   }
 
   reveal() {
@@ -62,13 +71,18 @@ export default class extends Controller {
   }
 
   nextTrack() {
-    console.log("NEW NEXT TRACK CALLED!");
-    const currentPlayingElement = document.querySelector("li.playing");
-    // sibling or parents first child
-    const nextTrack =
-      currentPlayingElement.nextElementSibling ||
-      currentPlayingElement.parentNode.children[0];
+    const currentPlayingOrderId = parseInt(
+      this.currentlyPlaying.dataset.order || 1
+    );
+    const nextPlayingOrderId =
+      this.trackTargets.length === currentPlayingOrderId
+        ? 1
+        : currentPlayingOrderId + 1;
 
+    const nextTrack = this.trackTargets.find(
+      (track) => parseInt(track.dataset.order) === nextPlayingOrderId
+    );
+    this.currentlyPlaying = nextTrack;
     this.nowPlaying();
 
     nextTrack.classList.add("playing");

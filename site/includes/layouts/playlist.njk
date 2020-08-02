@@ -17,7 +17,7 @@ layout: default
 
   <div data-controller="playlist">
       <audio class="w-full" data-target="playlist.player" type="audio/mpeg" controls></audio>
-      <div class="mt-4 space-y-4" id="playlist" data-target="playlist.playlist">
+      <div class="grid gap-2 mt-4" id="playlist" data-target="playlist.playlist">
       {% for track in tracks %}
         <div data-controller="track" data-target="playlist.track" class="p-2 space-x-4 border-l-2 border-white" data-src="{{track.src}}">
           <button data-action="track#play" class="px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700">Play</button>
