@@ -1,7 +1,9 @@
 module.exports = {
   content: ["./dist/**/*.html"],
   css: ["./dist/assets/*.css"],
-  whitelist: ["playing", "track", "stop-button", "play-button"],
+  options: {
+    whitelist: ["playing", "track", "stop-button", "play-button"],
+  },
   extractors: [
     {
       extractor: function (content) {
