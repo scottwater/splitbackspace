@@ -14,7 +14,7 @@ I did two identical builds, except for the switches.
 Each build:
 
 1. Key65 FR4 Plates
-2. Key65 Hot-swap PCB[^sbs]
+2. Key65 Hot-swap PCB
 3. Durock stabilizers
 
 For the switches, I went with the black variant of both the Silk and Dry. For the Silks, they are 100% stock. For the Dry switches, I lubed the stems very lightly with 205g0 (springs with 105) and filmed them with TX switch films.
@@ -27,5 +27,4 @@ When I get a moment, I am going to try adding some films to the Silk switches an
 
 If you have a minute, give them both a listen and see which you prefer.
 
-[^sbs]: Please excuse the hideous looking 2u backspace.
 [^jwk]: You could compare these to just about any other JWK switch. I went with the Dry here to keep my comparisons as close as possible (spring weight, when it was manufactured, etc.).
