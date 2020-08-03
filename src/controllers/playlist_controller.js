@@ -9,6 +9,11 @@ export default class extends Controller {
       this.nowPlaying.bind(this),
       false
     );
+    this.element.addEventListener(
+      "stopPlaying",
+      this.stopPlaying.bind(this),
+      false
+    );
     this.shuffle();
     const audio = this.playerTarget;
     audio.addEventListener(
@@ -18,12 +23,39 @@ export default class extends Controller {
       },
       true
     );
+    audio.addEventListener("play", this.played.bind(this), true);
+    audio.addEventListener("pause", this.paused.bind(this), true);
     audio.onended = this.nextTrack.bind(this);
     audio.addEventListener("timeupdate", this.captureDuration.bind(this), true);
   }
 
-  captureDuration(event) {
+  clearNowPlaying() {
+    this.trackTargets.forEach((track) => {
+      track.classList.remove("playing");
+    });
+  }
+
+  paused() {
+    this.clearNowPlaying();
+  }
+
+  played() {
+    const player = this.playerTarget;
+    this.currentlyPlaying = this.trackTargets.find(
+      (track) => track.dataset.src === player.currentSrc
+    );
+    this.clearNowPlaying();
+    this.currentlyPlaying.classList.add("playing");
+  }
+
+  captureDuration() {
     this.currentlyPlaying.dataset.duration = this.playerTarget.currentTime;
+  }
+
+  stopPlaying() {
+    this.clearNowPlaying();
+    const audio = this.playerTarget;
+    audio.pause();
   }
 
   shuffle() {
@@ -56,7 +88,7 @@ export default class extends Controller {
     });
 
     this.currentlyPlaying = playlist.children[random_order.indexOf(1)];
-    this.currentlyPlaying.classList.add("playing");
+    //this.currentlyPlaying.classList.add("playing");
     player.src = this.currentlyPlaying.dataset.src;
   }
 
@@ -93,9 +125,7 @@ export default class extends Controller {
 
   nowPlaying(event) {
     console.log("Called Clear Now Playing");
-    this.trackTargets.forEach((track) => {
-      track.classList.remove("playing");
-    });
+    this.clearNowPlaying();
 
     if (event && event.detail) {
       const audio = this.playerTarget;

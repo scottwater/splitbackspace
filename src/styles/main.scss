@@ -3,9 +3,22 @@ main {
     @apply my-5;
   }
 
+  .stop-button {
+    @apply hidden;
+  }
+
+  .track {
+    @apply border-l-4 border-white;
+  }
+
   .playing {
-    //@apply bg-green-200 border-2 border-green-500;
     @apply border-l-4 border-green-500;
+    .play-button {
+      @apply hidden;
+    }
+    .stop-button {
+      @apply inline-block;
+    }
   }
 
   h1 {

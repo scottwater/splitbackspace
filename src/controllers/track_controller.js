@@ -22,4 +22,18 @@ export default class extends Controller {
     this.element.dispatchEvent(nowPlaying);
     this.element.classList.add("playing");
   }
+
+  stop(event) {
+    console.log("Stop Button");
+    event.preventDefault();
+
+    const stopPlayingEvent = new CustomEvent("stopPlaying", {
+      bubbles: true,
+      detail: {
+        track: this.element,
+      },
+    });
+
+    this.element.dispatchEvent(stopPlayingEvent);
+  }
 }

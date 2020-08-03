@@ -19,9 +19,10 @@ layout: default
       <audio class="w-full" data-target="playlist.player" type="audio/mpeg" controls></audio>
       <div class="grid gap-2 mt-4" id="playlist" data-target="playlist.playlist">
       {% for track in tracks %}
-        <div data-controller="track" data-target="playlist.track" class="p-2 space-x-4 border-l-2 border-white" data-src="{{track.src}}">
-          <button data-action="track#play" class="px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700">Play</button>
-          <button data-action="track#reveal" class="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700" data-target="playlist.revealButton">Reveal</button>
+        <div data-controller="track" data-target="playlist.track" class="p-2 border-l-2 border-white track" data-src="{{track.src}}">
+          <button data-action="track#play" class="w-24 px-4 py-2 font-bold text-white bg-green-500 rounded play-button hover:bg-green-700">Play</button>
+          <button data-action="track#stop" class="w-24 px-4 py-2 font-bold text-white bg-red-500 rounded stop-button hover:bg-red-700">Pause</button>
+          <button data-action="track#reveal" class="w-24 px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700" data-target="playlist.revealButton">Reveal</button>
           <span class="hidden font-bold" data-target="track.message playlist.message">{{track.message}}</span>
         </div>
       {% endfor %}
