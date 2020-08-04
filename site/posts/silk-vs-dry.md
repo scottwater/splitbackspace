@@ -27,4 +27,12 @@ When I get a moment, I am going to try adding some films to the Silk switches an
 
 If you have a minute, give them both a listen and see which you prefer.
 
+## Update
+
+I added TX switch films to the Silk series switches. While I was pleasantly surprised by how good the stock Silks sounded, I was disappointed in the films' minimal improvement.
+
+The Silks are the best stock switches I have used by a mile, but the sound is quite a bit behind the modified Dry series. The feel of the Silks (filmed or not) is also not nearly as good as the modified Dry series. It looks like my days of lubing at not quite over (yet).
+
+You can compare the sound for your self below. To feel the difference, you will need to buy your own. :P
+
 [^jwk]: You could compare these to just about any other JWK switch. I went with the Dry here to keep my comparisons as close as possible (spring weight, when it was manufactured, etc.).
