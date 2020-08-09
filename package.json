@@ -53,7 +53,8 @@
     "serve:dist": "npx http-server dist",
     "post": "node bin/new_post.js",
     "board": "node bin/new_board.js",
-    "link": "node bin/new_link.js"
+    "link": "node bin/new_link.js",
+    "sound": "node bin/new_sound.js"
   },
   "dependencies": {}
 }
