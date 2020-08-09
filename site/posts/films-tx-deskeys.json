@@ -1,0 +1,12 @@
+{
+  "tracks": [
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/key65/films/tx.mp3",
+      "message": "TX Films (NK Dry switches)"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/key65/films/deskey.mp3",
+      "message": "Deskey Films (Alpacas switches)"
+    }
+  ]
+}
