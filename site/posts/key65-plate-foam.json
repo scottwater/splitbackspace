@@ -1,0 +1,12 @@
+{
+  "tracks": [
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/key65/foam/yes.mp3",
+      "message": "Plate Foam"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/key65/foam/no.mp3",
+      "message": "No Plate Foam"
+    }
+  ]
+}
