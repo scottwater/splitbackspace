@@ -1,0 +1,16 @@
+{
+  "tracks": [
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/key65/moyu/brass.mp3",
+      "message": "Brass"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/key65/moyu/cf.mp3",
+      "message": "Carbon Fiber"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/key65/moyu/fr4.mp3",
+      "message": "FR4"
+    }
+  ]
+}
