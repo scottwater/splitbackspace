@@ -1,0 +1,12 @@
+{
+  "tracks": [
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/mga/fr4.mp3",
+      "message": "FR4"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/mga/pom.mp3",
+      "message": "POM"
+    }
+  ]
+}
