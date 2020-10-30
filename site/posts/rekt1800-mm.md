@@ -1,13 +1,13 @@
 ---
-title: Retk1800 - The Missing Manual
+title: Rekt1800 - The Missing Manual
 date: 2020-07-27T15:19:20.263Z
 uuid: ddfc152d-eb62-4a42-911c-3e82f04c2ff9
-keywords: Mechanical Keyboard, Retk1800, manual, documentation
-previewImage: /assets/images/posts/retk1800-mm/final.jpg
+keywords: Mechanical Keyboard, Rekt1800, manual, documentation
+previewImage: /assets/images/posts/rekt1800-mm/final.jpg
 layout: layouts/post
 ---
 
-The [Retk1800](https://cannonkeys.com/products/rekt1800-keyboard) is a part of CannonKeys' Brutalist line of keyboards in the 1800-Compact form factor.
+The [Rekt1800](https://cannonkeys.com/products/rekt1800-keyboard) is a part of CannonKeys' Brutalist line of keyboards in the 1800-Compact form factor.
 
 Once your keyboard arrives, and you open the box, you should have the following:
 
@@ -19,7 +19,7 @@ Once your keyboard arrives, and you open the box, you should have the following:
 6. 1 Hex key
 7. one sleeve for storing your keyboard when not in use
 
-![Parts](/assets/images/posts/retk1800-mm/parts.jpg)
+![Parts](/assets/images/posts/rekt1800-mm/parts.jpg)
 
 As with any custom mechanical keyboard, as soon as possible, you should:
 
@@ -69,7 +69,7 @@ From our previous examples, for my 7u plate + split backspace, I needed five tot
 
 Install the stabilizers on to your PCB, align the plate, and insert and solder your switches.
 
-![PCB, Plate, Switches, and Stabs](/assets/images/posts/retk1800/switch_plate.jpg)
+![PCB, Plate, Switches, and Stabs](/assets/images/posts/rekt1800/switch_plate.jpg)
 
 Once complete, again, test your PCB to ensure all switches are working.
 
@@ -79,7 +79,7 @@ Next, flip the top of your case over. I recommend setting it down on a deskmat t
 
 Take eight o-rings and carefully align them on each of the PCB mounting holes. These are found towards the inside of your main case screw holes. You will see a slight indentation meant to help you properly align the o-rings.
 
-![O-rings](/assets/images/posts/retk1800-mm/o-rings.jpg)
+![O-rings](/assets/images/posts/rekt1800-mm/o-rings.jpg)
 
 If you have trouble aligning them, carefully use the tip of the included hex key or a small screwdriver. Be very careful not to scratch your new keyboard.
 
@@ -87,7 +87,7 @@ Next, carefully align your PCB on top of the 8 o-rings. You should double-check 
 
 Once everything is aligned, take the 8 black PCBs mounting screws and add an o-ring[^oring] to each.
 
-![O-rings and screws](/assets/images/posts/retk1800-mm/o-ring-screw.jpg)
+![O-rings and screws](/assets/images/posts/rekt1800-mm/o-ring-screw.jpg)
 
 From there, carefully screw the PCB to the top of the case.
 
@@ -99,7 +99,7 @@ Finally, flip your top case over and re-mount the bottom of the case. Again, be 
 
 ## Sound Options
 
-The Retk1800 is a large case and has plenty of space inside it. With most switch and keycap combinations, you will sound hollow and very "pingy". There are two relatively simple things you can do to fix this:
+The Rekt1800 is a large case and has plenty of space inside it. With most switch and keycap combinations, you will sound hollow and very "pingy". There are two relatively simple things you can do to fix this:
 
 ### 1. Polyfill
 
@@ -117,13 +117,13 @@ Polyfill or foam? The choice is yours. Experiment and see what sounds better wit
 
 ## VIA
 
-At the time I built my Retk1800, VIA was not pre-flashed on my PCB. Flashing VIA on your PCB easy to do and highly recommend.
+At the time I built my Rekt1800, VIA was not pre-flashed on my PCB. Flashing VIA on your PCB easy to do and highly recommend.
 
 The first thing you need to do is grab the VIA bin file. You can find it in the pins of the CannonKeys discord or compile it yourself.
 
 To put your PCB in bootloader mode, unplug it, then hold ESC while plugging it back in[^bootloader]. From there, you can use QMK toolbox to flash the new bin file onto your keyboard.
 
-Usually, this is all you need to do to VIA enable a PCB. However, since Retk1800 is not officially in VIA yet, you will need to go into the VIA design tab and add the Retk1800.json layout file (also available in the CannonKeys discord server).
+Usually, this is all you need to do to VIA enable a PCB. However, since Rekt1800 is not officially in VIA yet, you will need to go into the VIA design tab and add the Rekt1800.json layout file (also available in the CannonKeys discord server).
 
 At this time, VIA does not remember custom the JSON file settings. So anytime you open VIA or unplug your keyboard, you will need to re-add the JSON file.
 
@@ -135,7 +135,7 @@ My keyboard is not responding to keystrokes - Check to make sure it is not in th
 
 ### 2. No (more) VIA
 
-My keyboard stopped being recognized by VIA. - Until the Retk1800 is officially in VIA, you will need to add that JSON configuration file every time you start VIA or unplug your keyboard.
+My keyboard stopped being recognized by VIA. - Until the Rekt1800 is officially in VIA, you will need to add that JSON configuration file every time you start VIA or unplug your keyboard.
 
 ### 3. Pingy sound
 
