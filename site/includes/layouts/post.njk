@@ -13,6 +13,99 @@ layout: default
   {% endif %}
 </p>
 {% endif %}
+{% if build %}
+<div class="mt-5 callout-block">
+  <div>
+    <h1 class="text-2xl font-semibold leading-6 text-gray-900">
+      Build Facts
+    </h1>
+  </div>
+  <div class="mb-5">
+    <dl>
+      {% if build.case %}
+      <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
+        <dt class="text-sm font-medium leading-5 text-gray-500">
+          Case
+        </dt>
+        <dd class="mt-1 leading-5 text-gray-900 text-md sm:mt-0 sm:col-span-3">
+          {{build.case}}
+        </dd>
+      </div>
+      {% endif %}
+      {% if build.plate %}
+      <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
+        <dt class="text-sm font-medium leading-5 text-gray-500">
+          Plate
+        </dt>
+        <dd class="mt-1 leading-5 text-gray-900 text-md sm:mt-0 sm:col-span-3">
+          {{build.plate}}
+        </dd>
+      </div>
+      {% endif %}
+      {% if build.pcb %}
+      <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
+        <dt class="text-sm font-medium leading-5 text-gray-500">
+          PCB
+        </dt>
+        <dd class="mt-1 leading-5 text-gray-900 text-md sm:mt-0 sm:col-span-3">
+          {{build.pcb}}
+        </dd>
+      </div>
+      {% endif %}
+      {% if build.keycaps %}
+      <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
+        <dt class="text-sm font-medium leading-5 text-gray-500">
+          Key Caps
+        </dt>
+        <dd class="mt-1 leading-5 text-gray-900 text-md sm:mt-0 sm:col-span-3">
+          {{build.keycaps}}
+        </dd>
+      </div>
+      {% endif %}
+      {% if build.switches %}
+      <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
+        <dt class="text-sm font-medium leading-5 text-gray-500">
+          Switches
+        </dt>
+        <dd class="mt-1 leading-5 text-gray-900 text-md sm:mt-0 sm:col-span-3">
+          {{build.switches}}
+        </dd>
+      </div>
+      {% endif %}
+      {% if build.stabs %}
+      <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
+        <dt class="text-sm font-medium leading-5 text-gray-500">
+          Stabilizers
+        </dt>
+        <dd class="mt-1 leading-5 text-gray-900 text-md sm:mt-0 sm:col-span-3">
+          {{build.stabs}}
+        </dd>
+      </div>
+      {% endif %}
+      {% if build.foam %}
+      <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
+        <dt class="text-sm font-medium leading-5 text-gray-500">
+          Foam
+        </dt>
+        <dd class="mt-1 leading-5 text-gray-900 text-md sm:mt-0 sm:col-span-3">
+          {{build.foam}}
+        </dd>
+      </div>
+      {% endif %}
+      {% if build.other %}
+      <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
+        <dt class="text-sm font-medium leading-5 text-gray-500">
+          Other
+        </dt>
+        <dd class="mt-1 leading-5 text-gray-900 text-md sm:mt-0 sm:col-span-3">
+          {{build.other}}
+        </dd>
+      </div>
+      {% endif %}
+    </dl>
+  </div>
+</div>
+{% endif %}
 {{ content | safe }}
 {% if soundTest %}
   <div class="mb-2">

@@ -4,6 +4,13 @@ date: 2020-05-20T15:05:20.399Z
 uuid: e2604cf0-0e9b-46e3-9267-e4846cced3ee
 keywords: Mechanical Keyboard, CFTKB Mysterium, Switch Couture, TLK, Acrylic keyboard
 image: /assets/images/posts/mysterium/1.jpeg
+build:
+  case: Bi-Frost acrylic case designed by Switch Couture
+  stabs: C3 Screw-in stabilizers, lubed with 205g0
+  plate: 5mm acrylic
+  pcb: Mysterium
+  switches: C3 Tangerine Switches (67g). Lubed with 205g0 (105 on the springs) and thicc filmed
+  keycaps: GMK Dots
 ---
 
 The [Mysterium](https://www.cftkb.com/shop/mysterium-tkl-diy-keyboard-kit) is a TKL through-hole produced by [CFTKB](https://www.cftkb.com). It is the much bigger sibling of the [Romeo](https://scottw.com/boards/romeo_spring/) (and slightly larger sibling of the Discipline).
@@ -11,15 +18,6 @@ The [Mysterium](https://www.cftkb.com/shop/mysterium-tkl-diy-keyboard-kit) is a 
 The case was expertly designed and built by [Switch Couture](https://switchcouture.com). It consists of five layers of stacked acrylic. In addition, there is an included a 5mm acrylic plate that holds the switches nice a snug.
 
 The Mysterium itself is a WK TKL, but the case was designed to be WKL because _this is the way_.
-
-Full Build Specs:
-
-- Mysterium PCB and related components
-- 5mm acrylic plate (did not use the Mysterium FR4)
-- Bi-Frost acrylic case designed by Switch Couture
-- C3 Tangerine Switches (67g). Lubed with 205g0 (105 on the springs) and filmed ([Thicc](https://maartenwut.com/product/thicc-films/) - [US orders](https://docs.google.com/forms/d/e/1FAIpQLSfXaf4jvT2Nf4Jwxm34J4AXhJ7L2c2mFT27WhIWIkAJPhrKZg/viewform)).
-- C3 Screw-in stabilizers, lubed with 205g0
-- GMK Dots
 
 I was trying to decide between Tealios and the Tangerines for this build. I thought the aesthetic of the clear Tealios would be an excellent way to go with the bi-frost acrylic case, and I love the feel of them. However, the Tealios sound is not as good as the Tangerines in my testing, so I went good feel and great sound over great feel and dull sound.
 

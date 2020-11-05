@@ -4,19 +4,17 @@ date: 2020-06-05T01:18:35.359Z
 uuid: cf2fe5d5-4f7b-4e83-baf8-6e279a695078
 keywords: Mechanical Keyboard, ungodly design, luna mechanical keyboard, kat profile, KAT DP0385
 image: /assets/images/posts/luna/1.jpeg
+build:
+  case: Luna by Ungodly Design
+  pcb: 1UP RGB 60% PCB HTE
+  switches: NK Blueberry
+  keycaps: KAT DP0385
+  stabs: Durock clear
 ---
 
 The [Luna](https://ungodly.design/products/luna-keyboard)[^1] is the first board from [Ungodly Design](https://ungodly.design/). The design is a tribute to the 50th anniversary of the Apollo 11 landing.
 
 The case is made up of two pieces of aluminum (top and bottom) and two acrylic rings. What makes this interesting is that you can choose from 10 different acrylic colors, which helps fully customize your build. The top piece is also your (integrated) plate.
-
-Full build details:
-
-1. Luna case[^2]
-2. 1UP RGB 60% PCB HTE
-3. [NK\_ Blueberry](https://novelkeys.xyz/collections/frontpage/products/nk_-blueberry) switches lubed with Tribosys 3204 (and 105 on the springs)
-4. Durock clear stabilizers
-5. [KAT DP0385](https://kbdfans.com/collections/keycaps/products/kat-dp0385-keycaps-set)
 
 First, I need to talk about the color. This blue is stellar. I again apologize for my photography skills. I am sure I am not doing it justice. I had initially ordered the silver colorway and Ungodly was kind enough to let me switch to the blue once I saw some of the first pictures on Instagram. Big thumbs up to Ungodly, [Salvun](https://salvun.com/), and whoever does his anodization.
 
@@ -28,7 +26,7 @@ On the switches, this is the first time I am trying the NovelKeys Blueberry swit
 
 Even after lubing with 3204 (and slightly heavier than usual), using the switches in my hand, they felt quite rough. If this had been a solder PCB, I probably would not have used these switches as is. However, PCB it shipped with is hot-swap, so I had nothing to lose except a couple of minutes. Thankfully, my initial assumption was wrong. They turned out quite nice in teh board. I have only been using them for a couple of days, but like creams, I expect they will get better over time. If they continue to improve, they will likely find their way into a stainless steel plate for a Mira SE build I am doing in the coming weeks.
 
-The final part of the build is the KAT DP0385 by KDBFans. I picked up this keycap set primarily to try the Kat profile. There are a lot of GBs for Kat profile underway, but I had yet to try them myself, and I was uneasy joining GBs with no first-hand experience.
+The final part of the build is the [KAT DP0385](https://kbdfans.com/collections/keycaps/products/kat-dp0385-keycaps-set) by KDBFans. I picked up this keycap set primarily to try the Kat profile. There are a lot of GBs for Kat profile underway, but I had yet to try them myself, and I was uneasy joining GBs with no first-hand experience.
 
 Overall, I glad I picked the set up. I do like the feel (height, smoothness, etc.) of Kat. The font on this set is awkward at best (the R, B and P keys make me squirmish), and the lack of secondary legends on any of the keys is a bit off-putting. I did not buy this set with the Luna in mind, but the bright white[^3] does play very nicely with the blue board and the white acrylic ring.
 

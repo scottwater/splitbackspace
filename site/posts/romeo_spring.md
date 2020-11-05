@@ -4,6 +4,13 @@ date: 2020-05-12T14:24:13.237Z
 uuid: 8b630526-f735-403e-b6b3-123c76fc6158
 keywords: Mechanical Keyboard, romeo, cftkb, 40% keyboard
 image: /assets/images/posts/romeo_spring/1.jpeg
+build:
+  case: Romeo FR4 plate
+  pcb: Romeo
+  switches: Gateron Milky Yellow switches lubed with 205g0.
+  stabs: Purple Durock Stabs lubed with 205g0
+  keycaps: GMK Vaporware
+
 ---
 
 [Romeo](https://www.cftkb.com/shop/romeo) is a 40% through-hole keyboard kit produced by [CFTKB](https://www.cftkb.com).
@@ -11,13 +18,6 @@ image: /assets/images/posts/romeo_spring/1.jpeg
 This is the second board of this type that I have built. Besides being a through-hole board, the other interesting design choice is the layout. There are many different 40% layouts available. You would think that at just 40 or so keys, almost any keycap set would work. Unfortunately, that is rarely the case, and you often need to opt for an add-on kit to ensure your favorite GMK set fits properly. However, in the case of the Romeo, [Coseyfannitutti](https://github.com/coseyfannitutti) used a layout that will work perfectly well with a vast majority of the sets you already own[^1].
 
 Spring was in the air when I was preparing for the build, so I decided to make that the theme of the build.
-
-For the build I went with:
-
-1. Romeo Kit in white.
-2. Gateron Milky Yellow switches lubed with 205g0.
-3. Purple Durock Stabs lubed with 205g0.
-4. GMK Vaporware
 
 Overall, for about \$60 (not including stabs, switches, and keycaps) the board turned out great.
 

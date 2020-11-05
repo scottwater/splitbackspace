@@ -4,16 +4,15 @@ date: 2020-06-10T04:04:28.263Z
 uuid: 9e91b0cf-196f-44dd-96d4-82d753c2b5dd
 keywords: Mechanical Keyboard, matrix noah, 65% keyboard, qmk
 image: /assets/images/posts/noah/1.jpeg
+build:
+  case: Noah by Matrix Labs
+  switches: 1 switches, lubed with 205g0 (105 on the springs), and filmed with TX films.
+  keycaps: MT3 Serika
+  pcb: Solder
+  stabs: C3 lubed with 205g0
 ---
 
 The Noah is my first keyboard by Matrix Lab. It has a few rough spots that make getting everything set up a bit of a challenge, but it is well worth the effort.
-
-Build Specs:
-
-- Noah by [Matrix Lab](https://matrix-lab.cn/)
-- H1 switches, lubed with 205g0 (105 on the springs), and filmed with TX films.
-- C3 Screw-in stabilizers, lubed with 205g0
-- [Zambumon's](https://zambumon.com/) [MT3 Serika](https://drop.com/buy/drop-zambumon-mt3-serika-custom-keycap-set)
 
 The Noah has not yet had an actual North America group buy. One is [supposed to happen](https://geekhack.org/index.php?topic=102300.0) and should ease the prices of these boards at least initially once it happens (and will make getting extra PCBs and different colors much easier...count me in.)
 

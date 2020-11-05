@@ -4,6 +4,13 @@ date: 2020-07-14T17:44:28.534Z
 uuid: 891bf808-8a36-421f-b120-08d035689538
 keywords: Mechanical Keyboard, KBD67 MKII, Zykos, Polycarbonate keyboard
 image: /assets/images/posts/kbd67-mkii/1.jpeg
+build:
+  case: KBD67-MKII - Polycarbonate
+  plate: Brass
+  stabs: Durock
+  switches: Zykos
+  keycaps: GMK 8008 (base + accent)
+  pcb: MKII Solder
 ---
 
 This build was a labor of love and some pain and misery. But in the end, I am quite pleased with how it turned out.
@@ -35,15 +42,6 @@ Knowing how tight all the switches were, I was not eager to desolder the entire 
 ![Busted Wire](/assets/images/posts/kbd67-mkii/wire.jpeg)
 
 ## Onto the build
-
-Here is what I used:
-
-- KBD67-MKII - Polycarbonate
-- Brass plate
-- Solder PCB
-- Zykos switches
-- Durock stabilizers
-- GMK 8008 (base + accent kit)
 
 This is my first polycarbonate build. Once complete, I immediately regretted not grabbing the Klippe PC and getting in on the Rutika GB recently (really regret this one). The feel and sound from the polycarbonate are quite lovely. I am usually not an RGB fan (and this PCB has none), but the polycarbonate has heft and enough clarity to make it worthwhile.
 

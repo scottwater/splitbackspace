@@ -3,15 +3,16 @@ title: Mono Rama M60-A Build
 date: 2020-04-25T17:04:11.831Z
 image: /assets/images/posts/mono_rama/1.jpeg
 keywords: Mechanical Keyboard, Rama M60-A, SEQ2, Milk, GMK Oblivion Monochrome, SummitCable, Mauve Switches, Randomfrankp, Progressive Springs
+build:
+  case: Rama Works M60A Seq2 Milk
+  stabs: Purple Durocks (via NK)
+  switches: Mauves lubed with 205g0 and spring swapped with THic Thock MPs
+  pcb: Rama Hot-swap
+  keycaps: GMK Oblivion Monochrome with the Hagoromo alphas
+  other: Custom cable by SummitCable
 ---
 
 The main reason I bought the [Rama M60-A](https://rama.works/m60-a) was the [Jony Ive](https://scottw.com/boards/jony) (all white) build. The initial build turned out great, but after a while, it was starting to feel a bit sterile, so I decided to mix things up a bit.
-
-The stabilizers and white cable stayed put, but this time I went with:
-
-1. GMK Oblivion Monochrome with the Hagoromo alphas.
-2. [Mauve switches](https://cannonkeys.com/collections/accessories/products/mauve-linear-switch-10)[^1] + [Thic Thock Magically Progressive Springs](https://thicthock.com/collections/springs-1/products/ttspringv2-mp)
-3. Changed to the NK Randomfrankp deskmat
 
 The keycap change was 100% aesthetics. It was just nice to switch things out. The Hagormo alphas are a much softer white than GMK Minimal, and I think it worked well. The Monochrome[^2] base set is great and will find it's way without the white alphas to a keyboard shortly.
 
