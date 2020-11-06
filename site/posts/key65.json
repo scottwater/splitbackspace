@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "Full View",
+      "desc": "Full View"
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "Arrow Cluster",
+      "desc": "Arrow Cluster - Silicon caps look nice, but are 100% not functional"
+    },
+    {
+      "img": "4.jpeg",
+      "alt": "Naked Key65",
+      "desc": "Naked Key65 with FR4"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Black and White",
+      "desc": "I tried going monochrome with WoB and BoW Hangul. If keys like < and > had BoW options I might have stayed with it."
+    },
+    {
+      "img": "6.jpg",
+      "alt": "Pink Butt",
+      "desc": "Pink butt shot"
+    },
+    {
+      "img": "7.jpg",
+      "alt": "White PBT",
+      "desc": "This did not work either. The all white was too much for me."
+    },
+    {
+      "img": "8.jpg",
+      "alt": "FR4 Plates",
+      "desc": "All the FR4 plates I had made."
+    }
+  ]
+}
