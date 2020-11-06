@@ -10,6 +10,12 @@ date: ${new Date().toISOString()}
 uuid: ${uuidv4()}
 keywords: Mechanical Keyboard,
 image: /assets/images/posts/${board}/1.jpeg
+build:
+  case: ${board}
+  pcb:
+  stabs:
+  keycaps:
+  switches:
 `.trim();
 
 const jsonData = `{
