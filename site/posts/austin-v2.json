@@ -1,0 +1,27 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+        {
+      "img": "2.jpeg",
+      "alt": "Left Profile",
+      "desc": "Left Profile"
+    }
+    ,    {
+      "img": "3.jpeg",
+      "alt": "Right Profile",
+      "desc": "Right Profile"
+    },    {
+      "img": "4.jpeg",
+      "alt": "Naked",
+      "desc": "Naked Carbon Fiber pic"
+    },    {
+      "img": "5.jpeg",
+      "alt": "Booty Shot",
+      "desc": "Backside!"
+    }
+  ]
+}
