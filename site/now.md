@@ -11,9 +11,9 @@ During _business_ hours, I am the co-founder of [KickoffLabs](https://kickofflab
 
 Keyboards I need to write up:
 
-- Mira SE with Marshmallows on an FR4 plate
+- ~~Mira SE with Marshmallows on an FR4 plate~~
 - SC Alice style with custom PCB
-- Austin V2
+- ~~Austin V2~~
 - MGA
 - ~~Key65 with inks~~
 
@@ -24,15 +24,16 @@ Keyboards (and such) I am looking for:
 
 I have my eye on:
 
-- Iron180
+- ~~Iron180~~
 - Forever65
 - Sagittarius
 - Vega
-- Dolinger LE
-- Merisi Sessantacinque
+- ~~Dolinger LE~~
+- ~~Merisi Sessantacinque~~
 - Ava
-- Valhalla
-- Kara
+- Tsukuyomi
+- ~~Valhalla~~
+- ~~Kara~~
 - ~~J-02 Rev 1~~
 - ~~Adélie~~
 
