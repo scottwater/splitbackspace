@@ -32,6 +32,7 @@ I have my eye on:
 - ~~Merisi Sessantacinque~~
 - Ava
 - Tsukuyomi
+- Aurora Input Series 65
 - ~~Valhalla~~
 - ~~Kara~~
 - ~~J-02 Rev 1~~
