@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+        {
+      "img": "4.jpeg",
+      "alt": "Knight Rider",
+      "desc": "Do you see KIT?"
+    },    {
+      "img": "3.jpeg",
+      "alt": "Full Board",
+      "desc": "Full board."
+    },    {
+      "img": "2.jpeg",
+      "alt": "Another pic",
+      "desc": "One more for the people in the back"
+    },    {
+      "img": "5.jpeg",
+      "alt": "Contrast...",
+      "desc": "GMK Dark is great, just not for close up photos (with my skills)"
+    },    {
+      "img": "6.jpeg",
+      "alt": "Keeb Nude",
+      "desc": "Keeb Nude"
+    }
+  ]
+}
