@@ -2,3 +2,6 @@ site/includes/packs.njk
 /node_modules
 /dist
 .netlify/
+
+# Local Netlify folder
+.netlify
