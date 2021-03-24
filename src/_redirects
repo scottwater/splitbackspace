@@ -8,3 +8,4 @@ https://www.splitbackspace.com/* https://splitbackspace.com/:splat 301!
 /links https://scottw.com/links/ 301!
 /posts/* https://scottw.com/keyboards/:splat 301!
 / https://scottw.com 301!
+/* https://scottw.com 301!
